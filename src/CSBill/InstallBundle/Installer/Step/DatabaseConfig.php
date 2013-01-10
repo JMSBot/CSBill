@@ -14,7 +14,6 @@ use Symfony\Component\Process\Process;
 use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Dumper;
 use Symfony\Component\Yaml\Exception\ParseException;
-
 use CSBill\InstallBundle\Installer\Step;
 
 class DatabaseConfig extends Step

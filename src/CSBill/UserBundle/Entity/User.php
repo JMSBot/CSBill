@@ -13,12 +13,10 @@ namespace CSBill\UserBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
-
-use Symfony\Component\Security\Core\User\AdvancedUserInterface,
-    Symfony\Component\Security\Core\User\EquatableInterface,
-    Symfony\Component\Security\Core\Util\StringUtils,
-    Symfony\Component\Security\Core\User\UserInterface;
-
+use Symfony\Component\Security\Core\User\AdvancedUserInterface;
+use Symfony\Component\Security\Core\User\EquatableInterface;
+use Symfony\Component\Security\Core\Util\StringUtils;
+use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 

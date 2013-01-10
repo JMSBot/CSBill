@@ -11,11 +11,8 @@
 namespace CSBill\InstallBundle\Controller;
 
 use CS\CoreBundle\Controller\Controller;
-
 use CSBill\InstallBundle\Exception\ApplicationInstalledException;
-
 use Symfony\Component\HttpFoundation\RedirectResponse;
-
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 

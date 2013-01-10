@@ -10,9 +10,8 @@
 
 namespace CSBill\InstallBundle\Installer;
 
-use Symfony\Component\DependencyInjection\ContainerInterface,
-    Symfony\Component\HttpFoundation\RedirectResponse;
-
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Doctrine\Common\Util\Inflector;
 
 /**
