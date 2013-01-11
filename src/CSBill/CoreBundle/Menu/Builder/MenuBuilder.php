@@ -40,7 +40,7 @@ final class MenuBuilder
     /**
      * Invokes the builder class to add items to the menu
      *
-     * @param MenuItem $menu
+     * @param ItemInterface $menu
      * @param array    $options
      *
      * @return mixed

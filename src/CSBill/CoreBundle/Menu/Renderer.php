@@ -61,7 +61,7 @@ class Renderer extends ListRenderer
     /**
      * Renders a menu at a specific location
      *
-     * @param string $location The location to render the menu
+     * @param array $options
      */
     public function build($storage, array $options = array())
     {
